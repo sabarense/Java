@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.types;
 
 public class TipoString {
 
