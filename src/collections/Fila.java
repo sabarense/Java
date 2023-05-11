@@ -8,7 +8,7 @@ public class Fila {
 
         Queue<String> fila = new LinkedList<>();
 
-        // Offer e Add -> Adicionam elemento na fila
+        // Offer e Add ≥ Adicionam elemento na fila
         // Diferenca é o comportamento quando a fila está cheia
         fila.add("Ana");
         fila.offer("Bia"); // Lanca uma excecao
@@ -17,10 +17,18 @@ public class Fila {
         fila.add("Rafaela");
         fila.offer("Gui");
 
-        // Peek e Element -> obter o proximo elemento
+        // fila.size() tamanho da queue
+        // fila.clear(); limpa a queue
+        // fila.isEmpty() verifica se a lista esta vazia
+
+        // Pool e Remove ≥ obter o próximo elemento da fila e remove
+
+        // Peek e Element -> obter o proximo elemento (sem remover)
+
         // Diferenca ocorre quando a fila esta vazia
         System.out.println(fila.peek()); // retorna null
         System.out.println(fila.element()); // lanca uma excecao
+
     }
 
 
