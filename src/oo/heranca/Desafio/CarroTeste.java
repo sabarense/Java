@@ -1,5 +1,5 @@
 package oo.heranca.Desafio;
-public class Corrida {
+public class CarroTeste {
     public static void main(String[] args) {
 
         Carro ferrari = new Ferrari(315);
@@ -7,6 +7,9 @@ public class Corrida {
         ferrari.acelerar();
         System.out.print("Ferrari -> ");
         System.out.println(ferrari);
+
+        Ferrari c2 = new Ferrari(400);
+        c2.ligarTurbo();
 
         ferrari.acelerar();
         System.out.print("Ferrari -> ");
