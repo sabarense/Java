@@ -15,3 +15,9 @@ H
 src/streams/Reduce3.java,7\4\74769474973e68fcc902da6821cbf540afe25d23
 F
 src/streams/Match.java,6\5\654e81b40b4a02b1203631893e2325a04246ee57
+@
+JavaProjects.iml,8\4\84d275927cd6740b38c120b4518d39501bfbfa83
+K
+src/generics/ListaUtil.java,d\f\df0d563ebe66a1e63b6b5febebdb73fb2c8888aa
+P
+ src/generics/ListaUtilTeste.java,1\d\1dc7bb0bd5da465011cebb17b503ab791d65972a
